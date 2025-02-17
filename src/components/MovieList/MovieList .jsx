@@ -8,7 +8,7 @@ function MovieList ({movies}) {
     <div>
       <ul>
       {movies.map((movie) => (
-        <li key={movie.id}>
+        <li className={s.itemTitle} key={movie.id}>
            <Link to={`/movies/${movie.id}`} state={{from:location}}>{movie.title}</Link>
         </li>
       ))}

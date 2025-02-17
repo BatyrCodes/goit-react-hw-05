@@ -1,0 +1,13 @@
+.list {
+  display: flex;
+  justify-content: flex-start;
+  list-style: none;
+  flex-wrap: wrap;
+  align-content: flex-end;
+  gap: 25px;
+}
+
+.actorName {
+  font-size: 20px;
+  margin-bottom: 20px;
+}

@@ -13,7 +13,7 @@ function HomePage() {
  
   return (
     <div className={s.container}>
-      <h1>Trending Movies</h1>
+      <h1 className={s.title}>Trending Movies</h1>
       <MovieList movies={movies}/>
     </div>
   )

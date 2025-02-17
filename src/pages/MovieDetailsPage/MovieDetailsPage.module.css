@@ -1,0 +1,59 @@
+.wrapper {
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  gap: 10px;
+  padding: 5px 10px;
+  margin-bottom: 20px;
+  border-radius: 3px;
+  border:none;
+  border: 1px solid gray;
+  cursor: pointer;
+  background-color: cadetblue;
+}
+
+.container {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.infofilms {
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+  padding: 30px 0px;
+  gap: 20px;
+}
+
+.movieTitle {
+  font-size: 50px;
+  color: gray;
+  font-weight: 800;
+}
+.userDesc {
+  font-size: 20px;
+  color: black;
+}
+
+.option {
+  font-size: 25px;
+  color: black;
+}
+
+.linkWrapper {
+  display: flex;
+  text-align: center;
+  gap: 30px;
+}
+
+.nav {
+  font-size: 20px;
+}
